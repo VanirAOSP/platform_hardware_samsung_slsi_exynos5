@@ -107,7 +107,7 @@ bool TrustZoneDevice::initDevice(
         return false;
     }
     if (!pMcKMod->checkVersion()) {
-        LOG_E("kernel module version mismatch");
+        LOG_E(" kernel module version mismatch");
         return false;
     }
 

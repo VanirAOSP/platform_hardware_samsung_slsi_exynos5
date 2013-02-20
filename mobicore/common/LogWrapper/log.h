@@ -118,7 +118,7 @@
             do \
             { \
                 _LOG_E("  *****************************"); \
-                _LOG_E("  *** ERROR: "__VA_ARGS__); \
+                _LOG_E("  *** ERROR: " __VA_ARGS__); \
                 _LOG_E("  *** Detected in %s:%i/%s()", __FILE__, __LINE__, __FUNCTION__); \
                 _LOG_E("  *****************************"); \
             } while(1!=1)
