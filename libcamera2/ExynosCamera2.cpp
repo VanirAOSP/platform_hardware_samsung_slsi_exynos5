@@ -959,5 +959,4 @@ status_t ExynosCamera2::constructDefaultRequest(
     return OK;
 #undef ADD_OR_SIZE
 }
-
 }
